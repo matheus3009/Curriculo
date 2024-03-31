@@ -1,0 +1,34 @@
+*{box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    --cor-escura: black;
+    --cor-clara: white;
+    --cor-chamativa: rgb(33, 33, 112);
+    --cor-intermediaria: gray;
+
+}
+
+
+header {
+    background-color: var(--cor-chamativa);
+    color: var(--cor-clara);
+    padding: 1vw;
+}
+
+
+
+
+
+
+.listas h2 {
+    width: 100vw;
+    margin: auto;
+    border: solid black;
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+    font-family: Raleway;
+}
+
