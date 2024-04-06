@@ -7,15 +7,29 @@
     --cor-escura: black;
     --cor-clara: white;
     --cor-chamativa: rgb(33, 33, 112);
-    --cor-intermediaria: gray;
+    --cor-intermediaria: rgb(238, 229, 229);
 
 }
 
+body {
+    background-color: var(--cor-intermediaria);
+}
 
 header {
     background-color: var(--cor-chamativa);
-    color: var(--cor-clara);
     padding: 1vw;
+}
+
+header h1{
+    color: var(--cor-clara);
+    border: solid var(--cor-escura);
+    background-color: var(--cor-escura);
+    border-radius: 5px;
+    margin-right: 150px;
+    font-size: 20px;
+    padding: 1px;
+    font-family: Raleway;
+    font-weight: bold;
 }
 
 
