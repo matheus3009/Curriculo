@@ -12,37 +12,41 @@
 }
 
 body {
+    border: solid var(--cor-escura);
     background-color: var(--cor-intermediaria);
 }
 
 header {
     background-color: var(--cor-chamativa);
-    padding: 1vw;
+    border: solid var(--cor-chamativa);
+    border-bottom: solid var(--cor-escura);
 }
 
-header h1{
+h1 {
     color: var(--cor-clara);
     border: solid var(--cor-escura);
-    background-color: var(--cor-escura);
-    border-radius: 5px;
-    margin-right: 150px;
-    font-size: 20px;
-    padding: 1px;
-    font-family: Raleway;
-    font-weight: bold;
-}
-
-
-
-
-
-
-.listas h2 {
-    width: 100vw;
-    margin: auto;
-    border: solid black;
-    background-color: var(--cor-escura);
-    color: var(--cor-clara);
+    border-radius: 20px;
+    padding: 2px;
+    margin-right: 40px;
+    background-color: black;
     font-family: Raleway;
 }
 
+hr {border: none;}
+
+h2 {
+    font-family: 'Noto sans';
+    padding: 10px;
+    font-weight: 800;
+    border-bottom: solid var(--cor-escura);
+    
+}
+
+p {
+    padding: 10px;
+}
+
+ul li {
+    
+
+}
