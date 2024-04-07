@@ -44,6 +44,8 @@ h2 {
 
 p {
     padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul li {
@@ -70,6 +72,6 @@ footer {
     background-color: var(--cor-chamativa);
     color: var(--cor-clara);
     text-align: center;
-    
+    height: 10vw;
 
 }
