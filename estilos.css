@@ -47,6 +47,29 @@ p {
 }
 
 ul li {
+    border: solid var(--cor-escura);
+    
+}
+
+ul li::marker {
+        content: none;
+}
+ul li:nth-last-child(odd) {
+    background-color: var(--cor-chamativa);
+    color: var(--cor-clara);
+    margin-right: 25px;
+}
+
+ul li:nth-last-child(even) {
+    background-color: gray;
+    color: white;
+    margin-right: 25px;
+}
+
+footer {
+    background-color: var(--cor-chamativa);
+    color: var(--cor-clara);
+    text-align: center;
     
 
 }
