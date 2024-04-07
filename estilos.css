@@ -71,7 +71,19 @@ ul li:nth-last-child(even) {
 footer {
     background-color: var(--cor-chamativa);
     color: var(--cor-clara);
-    text-align: center;
     height: 10vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
