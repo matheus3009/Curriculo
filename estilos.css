@@ -14,7 +14,6 @@
 body {
     border: solid var(--cor-escura);
     background-color: var(--cor-intermediaria);
-    background-image: url();
 }
 
 header {
